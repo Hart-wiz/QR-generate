@@ -14,11 +14,11 @@ export default function Footer() {
           <a className="link link-hover" href="/Contact">
             Contact
           </a>
-          <a className="link link-hover" to="/jobs">
-            Jobs
+          <a className="link link-hover" to="/Socials">
+            Socials
           </a>
-          <a className="link link-hover" to="Press">
-            Press kit
+          <a className="link link-hover" to="/Donate">
+            Donate
           </a>
         </nav>
         <nav>

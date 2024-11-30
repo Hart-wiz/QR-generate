@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react";
-import Home from "./Home.jsx";
-import About from "./About.jsx";
-import NotFoundPage from "./NotFoundPage.jsx";
+import Home from "./pages/Home.jsx";
+import About from "./pages/About.jsx";
+import NotFoundPage from "./pages/NotFoundPage.jsx";
 import QRpage from "./QRpage.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Footer from "./Footer.jsx";
-import Contact from "./Contact.jsx";
+import Contact from "./pages/Contact.jsx";
 
 const router = createBrowserRouter([
   {

@@ -1,6 +1,6 @@
 import React from "react";
 
-import Button from "./Button.jsx";
+import Button from "../Button.jsx";
 
 export default function About() {
   return (
