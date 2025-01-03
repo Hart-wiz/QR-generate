@@ -61,7 +61,7 @@ export default function Footer() {
         <aside>
           <p>
             Copyright © {new Date().getFullYear()} - All right reserved by
-            openQR
+            weconetdata
           </p>
         </aside>
       </footer>
