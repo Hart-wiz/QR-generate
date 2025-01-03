@@ -8,21 +8,21 @@ export default function Footer() {
     <>
       <footer className="footer footer-center bg-black text-base-content rounded p-10">
         <nav className="grid grid-flow-col gap-4">
-          <a href="/About" className="link link-hover">
+          <a href="/About" className="link link-hover text-white">
             About us
           </a>
-          <a className="link link-hover" href="/Contact">
+          <a className="link link-hover text-white" href="/Contact">
             Contact
           </a>
-          <a className="link link-hover" to="/Socials">
+          <a className="link link-hover text-white" to="/Socials">
             Socials
           </a>
-          <a className="link link-hover" to="/Donate">
+          <a className="link link-hover text-white" to="/Donate">
             Donate
           </a>
         </nav>
         <nav>
-          <div className="grid grid-flow-col gap-4">
+          <div className="grid grid-flow-col gap-4 text-white">
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ export default function Footer() {
             </a>
           </div>
         </nav>
-        <aside>
+        <aside className="text-white">
           <p>
             Copyright © {new Date().getFullYear()} - All right reserved by
             weconetdata

@@ -36,7 +36,7 @@ export default function QRpage() {
 
         <Button
           onClick={downloadFile}
-          className="btn bg-green-950 border-none mt-[0.5rem]"
+          className="btn bg-green-950 border-none text-white mt-[0.5rem]"
           value="download QR"
         />
       </section>
@@ -76,11 +76,11 @@ export default function QRpage() {
               type="button"
               onClick={showQRcode}
               value="generate QR"
-              className="btn bg-blue-950 w-[100%] border-none px-[3rem] "
+              className="btn bg-blue-950 text-white w-[100%] border-none px-[3rem] "
             />
             <button
               type="reset"
-              className="hover:text-white btn bg-yellow-300 text-black  border-none px-[2rem] "
+              className=" btn bg-yellow-300 text-black  border-none px-[2rem] hover:text-white hover:bg-yellow-600 "
             >
               clear
             </button>
