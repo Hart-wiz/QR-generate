@@ -11,7 +11,11 @@ export default function About() {
         error velit nostrum ut asperiores ducimus non iste, exercitationem
         culpa?
       </div>
-      <Button to="/" className="btn bg-blue-950" value="back to home" />
+      <Button
+        to="/"
+        className="btn bg-blue-950 text-white"
+        value="back to home"
+      />
     </>
   );
 }

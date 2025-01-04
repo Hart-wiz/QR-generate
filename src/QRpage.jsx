@@ -47,29 +47,30 @@ export default function QRpage() {
   return (
     <div className="flex flex-row bg-yellow-600 flex-wrap min-w-full justify-center h-[100%]">
       <section className="w-[60%] min-w-full sm:min-w-full lg:min-w-[360px] bg-opacity-70 bg-blue-700 px-[1.5rem] justify-center">
-        <div className="text-white opacity-65 w-full ">
-          <h1 className="text-[0.9rem] md:text-[3rem] py-[0.9rem]">
-            OpenQR:
-            <h2 className="text-[0.9rem] pt-[0.9rem] md:text-[3rem]">
-              Your Quick QR Code Solution
-            </h2>
-          </h1>
-          <ul className="text-[0.9rem] md:text-[1rem]">
-            <li>
-              <b>Simple Input: </b> Enter your text, link, or number.
-            </li>
-            <li>
-              <b>Instant Generation: </b>Click a button, and your QR code is
-              ready.
-            </li>
-            <li>
-              <b>Easy Sharing: </b> Download, print, or share directly.
-            </li>
-          </ul>
+        <div>
+          <div className="text-white  w-full ">
+            <h1 className="text-[0.9rem] md:text-[3rem] py-[0.9rem]">
+              OpenQR:
+              <h2 className="text-[0.9rem] pt-[0.9rem] md:text-[3rem]">
+                Your Quick QR Code Solution
+              </h2>
+            </h1>
+            <ul className="text-[0.9rem] md:text-[1rem]">
+              <li>
+                <b>Simple Input: </b> Enter your text, link, or number.
+              </li>
+              <li>
+                <b>Instant Generation: </b>Click a button, and your QR code is
+                ready.
+              </li>
+              <li>
+                <b>Easy Sharing: </b> Download, print, or share directly.
+              </li>
+            </ul>
 
-          <h1>Try OpenQR today and experience the future of sharing.</h1>
+            <h1>Try OpenQR today and experience the future of sharing.</h1>
+          </div>
         </div>
-
         <form action="" className="flex flex-col ">
           <fieldset className=" flex flex-row gap-[20%] justify-center py-[1rem] rounded-[9px]">
             <Button

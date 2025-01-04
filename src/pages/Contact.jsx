@@ -5,7 +5,11 @@ export default function Contact() {
   return (
     <>
       <h1>OUR CONTACT</h1>
-      <Button to="/" className="btn bg-blue-950" value="back to home" />
+      <Button
+        to="/"
+        className="btn bg-blue-950 text-white"
+        value="back to home"
+      />
     </>
   );
 }

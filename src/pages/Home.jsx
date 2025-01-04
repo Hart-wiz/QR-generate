@@ -3,7 +3,7 @@ import Button from "../Button.jsx";
 
 export default function Home() {
   return (
-    <>
+    <div>
       <div
         className="hero min-h-screen"
         style={{
@@ -11,8 +11,8 @@ export default function Home() {
             "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
         }}
       >
-        <div className="hero-overlay bg-opacity-60"></div>
-        <div className="hero-content text-white text-center">
+        <div className="hero-overlay bg-opacity-60 "></div>
+        <div className="z-index-3hero-content text-white text-center">
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
             <p className="mb-5">
@@ -31,6 +31,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
