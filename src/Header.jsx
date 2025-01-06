@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./index.css";
 import daisyui from "daisyui";
-import Sidebar from "./Sidebar";
 
 export default function Header() {
   const [isVisible, setIsVisible] = useState("true");

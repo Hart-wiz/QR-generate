@@ -12,7 +12,7 @@ export default function Home() {
         }}
       >
         <div className="hero-overlay bg-opacity-60 "></div>
-        <div className="z-index-3hero-content text-white text-center">
+        <div className="z-index-3 hero-content text-white text-center">
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
             <p className="mb-5">
