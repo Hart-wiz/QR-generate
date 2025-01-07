@@ -52,7 +52,7 @@ export default function Header() {
         </div>
       </div>
       <div
-        className={`w-[300px] h-full text-white  absolute  bg-blue-950 transform transition-transform duration-400 ${
+        className={`z-30 w-[300px] h-full text-white  absolute  bg-blue-950 transform transition-transform duration-400 ${
           isVisible ? " translate-x-[-100%]  " : "translate-x-0"
         }`}
       >
